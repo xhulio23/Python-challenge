@@ -25,4 +25,4 @@ The winner of the election based on popular vote
 
 With this excercise I was able to get the python script to work, which was a proud moment. 
 
-In these exercises, I used the knowledge from all the class learnings, youtube tutorials and ChatGPT to generate some of the following codes to work. 
+In these exercises, I used the knowledge from all the class learnings, youtube tutorials to generate some of the following codes to work. 
