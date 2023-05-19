@@ -63,19 +63,3 @@ with open(data_path) as elect_data:
     print("----------------------------")
     
 
-result_path = os.path.join("analysis", "results.txt")
-
-with open(result_path, 'w') as result_file:
-
-    # Writes each line exactly how we printed in the terminal
-    result_file.writelines(["Election Results \n",
-   "---------------------------- \n",
-    f"Total Votes: {total_votes} \n",
-    "---------------------------- \n"])
-
-    for cand in vote_count:
-        result_file.write(f"{candidate[0]}: {round(candidate[1]/total_votes * 100, 3)}% ({candidate[1]}) \n")
-
-    result_file.writelines(["---------------------------- \n",
-    f"Winner: {winner[0]} \n",
-    "---------------------------- \n"])
